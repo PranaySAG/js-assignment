@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.image-container{
+    height: 650px;
+    width: 650px;
+    border: 2px solid #bf0d89;
+    padding: 20px;
+    border-radius: 20px
+}
+.image-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    height: 580px;
+    width: 600px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.img {
+    height: 500px;
+}
+.btn{
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border-radius: 8px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+}

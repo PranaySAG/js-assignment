@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript assaigment-22</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <div class="image-card">
+                <img src="blub-off.png" id="image-show" class="img">
+            </div>
+            <button id="btn-1" class="btn" onclick="toggleImg()">CHANGE IMAGE</button> 
+        </div>
+    </div>
+    
+
+<script>
+const imageCard = document.getElementById("image-show");
+
+
+function toggleImg() {
+    if (imageCard.src.includes("blub-on.png")) {
+        imageCard.src = "blub-off.png";
+    } else {
+        imageCard.src = "blub-on.png";
+    }
+}
+
+
+
+</script>    
+</body>
+</html>
