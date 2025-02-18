@@ -10,7 +10,7 @@
     <div class="container">
         <div class="image-container">
             <div class="image-card">
-                <img src="blub-off.png" id="image-show" class="img">
+                <img src="bulb-off.png" id="image-show" class="img">
             </div>
             <button id="btn-1" class="btn" onclick="toggleImg()">CHANGE IMAGE</button> 
         </div>
@@ -22,10 +22,10 @@ const imageCard = document.getElementById("image-show");
 
 
 function toggleImg() {
-    if (imageCard.src.includes("blub-on.png")) {
-        imageCard.src = "blub-off.png";
+    if (imageCard.src.includes("bulb-on.png")) {
+        imageCard.src = "bulb-off.png";
     } else {
-        imageCard.src = "blub-on.png";
+        imageCard.src = "bulb-on.png";
     }
 }
 
